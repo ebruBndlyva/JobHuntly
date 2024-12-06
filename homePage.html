@@ -1,11 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/homeResponsive.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <h1>salam</h1>
+    <!-- !Header -->
+    <header>
+        <div class="content">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <div class="logo-img"><img src="./assets/Media/Frame 3.png" alt="logo"></div>
+                    <h1>JobHuntly</h3>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <ul class="nav-links">
+                            <li><a href="#">Find Jobs</a></li>
+                            <li><a href="./browseCompanies.html">Browse Companies</a></li>
+                        </ul>
+                        <div class="nav-menu"><i class="fa-solid fa-bars"></i></div>
+                    </nav>
+                    <div class="navbar-btns">
+                        <a class="login" href="#">Login</a>
+                        <a class="sign" href="#">Sign up</a>
+
+                    </div>
+                    <div class="nav-user">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ! Main -->
+    <main>
+        <!-- ! HERO SECTION -->
+        <section id="hero">
+            <div class="content">
+                <div class="hero-wrapper">
+                    <div class="hero-title">
+                        <h1 class="title">Discover more <br> than</h1>
+                        <h1 class="title">5000 + Jobs</h1>
+                    </div>
+                    <div class="hero-img">
+                        <img src="./assets/Media/Header/1/Vector.png" alt="hreo-img">
+                    </div>
+                    <p>Great platform for the job seeker that searching for <br> new career heights and passionate about
+                        startups.</p>
+                    <form>
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Job title or keyword">
+                        </div>
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <select name="country" id="country">
+                                <option value="Florance">Florance,Italy</option>
+                            </select>
+                        </div>
+                        <button type="submit">Search my job</button>
+
+                    </form>
+                    <p class="form-desc">Popular : UI Designer, UX Researcher, Android, Admin</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ! COMPANY SECTION -->
+        <section id="company">
+            <div class="content">
+                <div class="company-wrapper">
+                    <h3 class="comp-title">Companies we helped grow</h3>
+                    <div class="company-names">
+                        <div class="vodafone">
+                            <div class="comp-img">
+                                <img src="./assets/Media/Landing Page/Company/Vector.png" alt="company">
+                            </div>
+                            <h2>vodafone</h2>
+                        </div>
+                        <div>
+                            <h2>intel</h2>
+                        </div>
+                        <div>
+                            <h2>Tesla</h2>
+                        </div>
+                        <div>
+                            <h2>Amda</h2>
+                        </div>
+                        <div>
+                            <h2>Talkit</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="category">
+            <div class="content">
+                <div class="category-wrapper">
+                    <div class="category-head">
+                        <div class="category-title">
+                            <h2>Explore by <span> category</span></h2>
+                        </div>
+                        <a class="show" href="#">Show all jobs <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="category-cards">
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-pen-ruler"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-chart-simple"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-bullhorn"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-money-bills"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-tv"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-code"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-briefcase"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="category-card">
+                            <i class="fa-solid icon fa-users"></i>
+                            <h5>Design</h5>
+                            <span>235 jobs available <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="category-foot">
+                        <div class="category-img">
+                            <img src="./assets/Media/Rectangle 2742.png" alt="comp">
+                        </div>
+                        <div class="dashboard">
+                            <img src="./assets/Media/Dashboard Company.png" alt="dash">
+                        </div>
+                        <div class="catag-desc">
+                            <h2>Start posting <br> jobs today</h2>
+                            <p>Start posting jobs for only $10.</p>
+                            <button>Sign Up For Free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="feature">
+           <div class="content">
+            <div class="feature-up">
+                <p>Featured <span>jobs</span></p>
+
+                <a href="">Show all jobs <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="feature-cards">
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img src="./assets/images/r.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Email Marketing</h4>
+                    <h3>Revolut • Madrid, Spain</h3>
+                    <p>Revolut is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+                        <div class="tag tag1">Marketing</div>
+                        <div class="tag tag2">Design</div>
+                    </div>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img src="./assets/images/dropbox.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Brand Designer</h4>
+                    <h3>Dropbox • San Fransisco, US</h3>
+                    <p>Dropbox is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+                        <div class="tag tag2">Design</div>
+                        <div class="tag tag3">Business</div>
+                    </div>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img src="./assets/images/pitch.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Email Marketing</h4>
+                    <h3>Pitch • Berlin, Germany</h3>
+                    <p>Pitch is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+                        <div class="tag tag1">Marketing</div>
+               
+                    </div>
+                </div>
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img src="./assets/images/yap.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Visual Designer</h4>
+                    <h3>Blinklist • Granada, Spain</h3>
+                    <p>Blinklist is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+             
+                        <div class="tag tag2">Design</div>
+                    </div>
+                </div>
+
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img src="./assets/images/oo.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Product Designer</h4>
+                    <h3>ClassPass • Manchester, UK</h3>
+                    <p>ClassPass is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+                        <div class="tag tag1">Marketing</div>
+                        <div class="tag tag2">Design</div>
+                    </div>
+                </div>
+
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img src="./assets/images/canva.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Lead Designer</h4>
+                    <h3>Canva • Ontario, Canada</h3>
+                    <p>Canva is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+                        <div class="tag tag2">Design</div>
+                        <div class="tag tag3">Business</div>
+                    </div>
+                </div>
+
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img src="./assets/images/heart.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Brand Strategist</h4>
+                    <h3>GoDaddy • Marseille, France</h3>
+                    <p>Blinklist is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+                        <div class="tag tag1">Marketing</div>
+                    </div>
+                </div>
+
+                <div class="feat-card">
+                    <div class="feat-card-up">
+                        <img style="border-radius: 50%;" src="./assets/images/twitter.png" alt="">
+                        <a href="">Full Time</a>
+                    </div>
+                    <h4>Data Analyst</h4>
+                    <h3>Blinklist • Granada, Spain</h3>
+                    <p>Blinklist is looking for Email Marketing to help team ma ...</p>
+                    <div class="tags">
+             
+                        <div class="tag tag4">Technology</div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+    </main>
+    <!-- !Footer -->
+    <footer>
+
+    </footer>
 </body>
+
 </html>
