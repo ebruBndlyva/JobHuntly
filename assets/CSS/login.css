@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.left-side {
+  width: 45%;
+  height: 850px;
+  background-color: rgb(249, 249, 249);
+  position: relative;
+}
+.man {
+  width: 386px;
+  height: 670px;
+  position: absolute;
+  top: 180px;
+  left: 160px;
+}
+
+.left-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  position: absolute;
+  /* width: 160px;
+height: 36px; */
+  top: 25px;
+  left: 125px;
+}
+.left-title img {
+  width: 32px;
+  height: 32px;
+  /* top: 27px;
+  left: 124px; */
+}
+.job {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.diogram {
+  background-color: white;
+  width: 165px;
+  height: 152px;
+  position: absolute;
+  top: 169px;
+  left: 67px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 17px;
+}
+.diogram img {
+  width: 56px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.hundred {
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.hiring {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.quote-box {
+  background-color: white;
+  width: 277px;
+  height: 198px;
+  position: absolute;
+  top: 610px;
+  left: 300px;
+  padding: 20px;
+}
+.quote-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 570px;
+  left: 473px;
+  z-index: 10;
+}
+.quote-fullname {
+  font-family: "Inter", serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(32, 36, 48, 0.6);
+}
+.quote {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  margin-top: 25px;
+  gap: 7px;
+
+  p {
+    color: rgba(32, 36, 48, 1);
+    font-family: "Epilogue", serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.right-side {
+  width: 55%;
+  height: 850px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.right-title{
+  display: none;
+  align-items: center;
+  gap: 7px;
+}
+.login-box {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  width: 408px;
+  height: 602px;
+}
+.choose {
+  display: flex;
+  justify-content: center;
+}
+.choice {
+  width: 115px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(70, 64, 222, 1);
+  font-size: 16px;
+  font-family: "Epilogue", serif;
+  font-weight: 600;
+}
+.job-seeker {
+  background-color: rgba(233, 235, 253, 1);
+}
+.welcome-back {
+  font-family: "Epilogue", serif;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: 1px solid rgba(204, 204, 245, 1);
+  padding: 10px 0;
+  p {
+    color: rgba(70, 64, 222, 1);
+    font-size: 16px;
+    font-family: "Epilogue", serif;
+    font-weight: 700;
+  }
+}
+.google img {
+  width: 20px;
+  height: 20px;
+}
+.log-email {
+  position: relative;
+  font-size: 16px;
+  font-family: "Epilogue", serif;
+  font-weight: 400;
+  color: rgba(32, 36, 48, 0.6);
+  text-align: center;
+}
+
+.log-email::before,
+.log-email::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 100px;
+  height: 1px;
+  background-color: rgba(214, 221, 235, 1);
+  transform: translateY(-50%);
+}
+.log-email::after {
+  right: 0;
+}
+.log-email::before {
+  left: 0;
+}
+form{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    /* margin-top: 30px; */
+}
+label{
+    color: rgba(81, 91, 111, 1);
+    font-size: 16px;
+    font-family: "Epilogue", serif;
+    font-weight: 600;
+}
+input{
+    border: 1px solid rgba(214, 221, 235, 1);
+    outline: none;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+input::placeholder{
+    color:rgba(168, 173, 183, 1);
+    font-size: 16px;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+}
+.remember-me{
+    color: rgba(81, 91, 111, 1);
+    font-size: 16px;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+}
+.login-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(70, 64, 222, 1);
+    border: none;
+    font-size: 16px;
+    font-family: "Epilogue", serif;
+    font-weight: 700;
+    padding: 15px;
+}
+.reg-acc{
+    color: rgba(32, 36, 48, 0.6);
+    font-size: 16px;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    a{
+        text-decoration: none;
+        color: rgba(70, 64, 222, 1);
+        font-family: "Inter", serif;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 7px;
+    }
+}
