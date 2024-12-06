@@ -1,0 +1,213 @@
+@media (min-width:440px) {
+    .content {
+        width: 435px;
+        margin: 0px auto;
+    }
+}
+@media (min-width:576px) {
+    .content{
+        width: 560px;
+        margin: 0px auto;
+    }
+}
+@media (min-width:768px) {
+    .content {
+        width: 760px;
+        margin: 0px auto;
+    }
+}
+@media (min-width:992px) {
+    .content {
+        width: 990px;
+        margin: 0px auto;
+    }
+}
+@media (min-width:1200px) {
+    .content {
+        width: 1150px;
+        margin: 0 auto;
+    }
+}
+@media (min-width:1400px) {
+    .content {
+    width: 1310px;
+    margin: 0 auto;
+    }
+}
+
+/* MANUAL RESPONSIVE */
+
+@media (max-width:376px) {
+    .navbar-right i {
+        display: block;
+    }
+    .navbar-right button {
+        display: none;
+    }
+    .top-text-content h1 {
+        font-size: 27px;
+    }
+    .top-text-content p {
+        font-size: 18px;
+    }
+    .navbar-left-2 p {
+        display: block;
+    }
+    .navbar-left-2 a {
+        display: none;
+    }
+    .navbar-right i {
+        display: block;
+    }
+    .navbar-right button {
+        display: none;
+    }
+    .company-search-form {
+        flex-direction: column;
+        input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-left: 10px
+        }
+    }
+    .recomended-companies-content {
+        .recomended-companies-container {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media (min-width:376px) and (max-width:440px) {
+    .navbar-content .fa-user {
+        display: block;
+    }
+    .navbar-right button {
+        display: none;
+    }
+    .top-text-content h1 {
+        font-size: 25px;
+    }
+    .top-text-content p {
+        font-size: 16px;
+    }
+    .navbar-left-2 p {
+        display: block;
+    }
+    .navbar-left-2 a {
+        display: none;
+    }
+    .navbar-right .fa-user {
+        display: block;
+    }
+    .navbar-right button {
+        display: none;
+    }
+    .company-search-form {
+        flex-direction: column;
+        input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-left: 10px
+        }
+    }
+    .recomended-companies-content {
+        .recomended-companies-container {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media (min-width:440px) and (max-width:576px) {
+    .navbar-right i {
+        display: block;
+    }
+    .navbar-right button {
+        display: none;
+    }
+    .top-text-content h1 {
+        font-size: 29px;
+    }
+    .top-text-content p {
+        font-size: 18px;
+    }
+    .navbar-left-2 p {
+        display: block;
+    }
+    .navbar-left-2 a {
+        display: none;
+    }
+    .company-search-form {
+        flex-direction: column;
+        input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-left: 10px
+        }
+    }
+    .recomended-companies-content {
+        .recomended-companies-container {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .top-text-content h1 {
+        font-size: 35px;
+    }
+    .navbar-left-2 p {
+        display: block;
+    }
+    .navbar-left-2 a {
+        display: none;
+    }
+    .company-search-form {
+        flex-direction: column;
+        input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-left: 10px
+        }
+    }
+    .recomended-companies-content {
+        .recomended-companies-container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .navbar-left-2 p {
+        display: block;
+    }
+    .navbar-left-2 a {
+        display: none;
+    }
+    .recomended-companies-content {
+        .recomended-companies-container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    
+}
+@media (min-width:1200px) and (max-width:1400px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

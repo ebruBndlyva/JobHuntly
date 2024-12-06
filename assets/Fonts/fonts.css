@@ -1,0 +1,8 @@
+@font-face {
+    font-family: redHat;
+    src: url(/assets/Fonts/RedHatDisplay-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: epilogue;
+    src: url(/assets/Fonts/Epilogue-VariableFont_wght.ttf)
+}

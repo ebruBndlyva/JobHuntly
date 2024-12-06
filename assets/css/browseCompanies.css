@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+.navbar-left-1 {
+    display: flex;
+    align-items: center;
+}
+.navbar-left-1 h2 {
+    font-family: redHat;
+    margin-left: 10px;
+    font-size: 24px;
+}
+.navbar-left-2 {
+    display: flex;
+    align-items: center;
+    .second {
+        color: #4640DE;
+        position: relative;
+        &::after {
+            content: "";
+            width: 63px;
+            height: 4px;
+            background-color: #4640DE;
+            position: absolute;
+            bottom: -200%;
+            left: 0%;
+        }
+    }
+}
+.navbar-left-2 a {
+    margin-right: 10px;
+    color: #515B6F;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: epilogue;
+}
+.navbar-left-2 p {
+    font-size: 40px;
+    color: #4640DE;
+    display: none;
+}
+
+.navbar-right button {
+    font-family: epilogue;
+    font-size: 16px;
+    padding: 10px 22px;
+    font-weight: 700;
+}
+.navbar-right i {
+    font-size: 40px;
+    color: #4640DE;
+    display: none;
+}
+.navbar-login-button {
+    background-color: white;
+    color: #4640DE;
+    border: none;
+    position: relative;
+    align-items: center;
+    &::after {
+        content: "";
+        height: 48px;
+        width: 2px;
+        background-color: #D6DDEB;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+.navbar-signUp-button {
+    background-color: #4640DE;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+.top-text-content {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    h1 {
+        font-size: 48px;
+        font-family: "Epilogue";
+        span {
+            color: #26A4FF;
+        }
+    }
+    p {
+        font-size: 18px;
+        color: #515B6F;
+        font-family: epilogue;
+    }
+    .top-text-underline {
+        display: flex;
+        padding-left: 40px;
+        padding-bottom: 25px;
+    }
+}
+.company-search-content {
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    form {
+        display: flex;
+        justify-content: center;
+    }
+    label {
+        font-size: 24px;
+        i {
+            margin-top: 10px;
+        }
+    }
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(202, 202, 202);
+        padding: 13px;
+        margin-right: 20px;
+    }
+    button {
+        font-family: epilogue;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 10px 24px;
+        color: white;
+        background-color: #4640DE;
+        border: none;
+    }
+}
+
+.company-search-form-text {
+    color: #515B6F;
+    font-size: 16px;
+    font-family: epilogue;
+    padding-top: 20px;
+}
+
+.recomended-companies-content {
+    padding: 160px 0px;
+    h2 {
+        font-size: 32px;
+        font-family: epilogue;
+    }
+    p {
+        color: #7C8493;
+        font-family: epilogue;
+        padding-top: 16px;
+    }
+    .recomended-companies-container {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        .recomended-companies-card {
+            border: 1px solid rgb(209, 209, 209);
+            padding: 20px;
+            position: relative;
+            h3 {
+                font-size: 24px;
+                font-family: epilogue;
+                font-weight: 600;
+                padding-top: 20px
+            }
+            p {
+                color: #515B6F;
+                font-size: 18px;
+                font-family: epilogue;
+                margin-top: 20px;
+                line-height: 2;
+            }
+            button {
+                background-color: white;
+                border: 1px solid #FFB836;
+                color: #FFB836;
+                font-size: 14px;
+                font-family: epilogue;
+                font-weight: 600;
+                padding: 8px 15px;
+                border-radius: 20px;
+                margin-top: 20px;
+            }
+            .recomended-card-2 {
+                background-color: #FF65501A;
+                border: none;
+                color: #FF6550;
+                font-size: 14px;
+                font-family: epilogue;
+                font-weight: 600;
+                padding: 8px 15px;
+                border-radius: 20px;
+                margin-top: 20px;
+            }
+            .recomended-crypto {
+                background-color: #4640DE1A;
+                border: none;
+                color: #4640DE;
+                font-size: 14px;
+                font-family: epilogue;
+                font-weight: 600;
+                padding: 8px 15px;
+                border-radius: 20px;
+                margin-top: 20px;
+            }
+            span {
+                position: absolute;
+                top: 6%;
+                right: 6%;
+                font-size: 16px;
+                font-family: epilogue;
+                font-weight: 400;
+                color: #4640DE;
+                background-color: #F8F8FD;
+                padding: 9px;
+            }
+        }
+    }
+}
+
+.photo-section {
+    background-color: rgb(255, 241, 241);
+    padding: 140px 0px;
+}
+
+.photo-section-content {
+    background-image: url(/assets/Media/CTA\ Section.png);
+    height: 410px;
+    background-size: cover;
+}
+
+footer {
+    background-color: #202430;
+    padding: 100px 0px;
+    .footer-up {
+        width: 100%;
+    }
+    .footer-down {
+        width: 100%;
+    }
+}
