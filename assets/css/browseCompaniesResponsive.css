@@ -77,6 +77,18 @@
             grid-template-columns: 1fr;
         }
     }
+    .last-list-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-2 {
+        display: none;
+    }
+    .footer-3 {
+        display: none;
+    }
+    .footer-up {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media (min-width:376px) and (max-width:440px) {
     .navbar-content .fa-user {
@@ -118,6 +130,18 @@
             grid-template-columns: 1fr;
         }
     }
+    .last-list-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-2 {
+        display: none;
+    }
+    .footer-3 {
+        display: none;
+    }
+    .footer-up {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media (min-width:440px) and (max-width:576px) {
     .navbar-right i {
@@ -153,6 +177,18 @@
             grid-template-columns: 1fr;
         }
     }
+    .last-list-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-2 {
+        display: none;
+    }
+    .footer-3 {
+        display: none;
+    }
+    .footer-up {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media (min-width:576px) and (max-width:768px) {
     .top-text-content h1 {
@@ -179,6 +215,18 @@
             grid-template-columns: 1fr 1fr;
         }
     }
+    .last-list-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-2 {
+        display: none;
+    }
+    .footer-3 {
+        display: none;
+    }
+    .footer-up {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media (min-width:768px) and (max-width:992px) {
     .navbar-left-2 p {
@@ -191,6 +239,9 @@
         .recomended-companies-container {
             grid-template-columns: 1fr 1fr;
         }
+    }
+    .last-list-container {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media (min-width:992px) and (max-width:1200px) {
